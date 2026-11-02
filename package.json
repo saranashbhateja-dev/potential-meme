@@ -1,0 +1,20 @@
+{
+  "name": "jee-os",
+  "version": "4.3.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "cap:sync": "npx cap sync android",
+    "android": "npx cap open android",
+    "android:build": "npx cap sync android && cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "description": "JEE preparation OS using the 29 Oct 2026 curriculum, adaptive four-lecture daily plan, revision tracking, and Supabase cloud sync"
+}

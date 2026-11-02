@@ -1,0 +1,2938 @@
+{
+  "v": 8,
+  "curriculumId": "jeeos-2026-10-29-v1",
+  "name": "JEE OS · 2026 Curriculum",
+  "exam": "",
+  "theme": "dark",
+  "planStart": "2026-10-29",
+  "perDay": 2,
+  "rest": 0,
+  "balance": true,
+  "buffer": 30,
+  "chapters": [
+    {
+      "id": "J26P01",
+      "sub": "P",
+      "name": "Units and Measurements",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch---31---units-and-measurement-912015",
+      "sourceOrder": 1,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P02",
+      "sub": "P",
+      "name": "Instruments",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch---27---instruments-954954",
+      "sourceOrder": 2,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P03",
+      "sub": "P",
+      "name": "Mathematical Tools",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--01---basic-mathematics-030800",
+      "sourceOrder": 3,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P04",
+      "sub": "P",
+      "name": "Motion in a Straight Line",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--02---motion-in-1dimension-438776",
+      "sourceOrder": 4,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P05",
+      "sub": "P",
+      "name": "Motion in a Plane",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--03---motion-in-plane-350781",
+      "sourceOrder": 5,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P06",
+      "sub": "P",
+      "name": "Laws of Motion",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--04---laws-of-motion-291709",
+      "sourceOrder": 6,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P07",
+      "sub": "P",
+      "name": "Work, Energy and Power",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--05---work--energy-and-power-514828",
+      "sourceOrder": 7,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P08",
+      "sub": "P",
+      "name": "Circular Motion",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--06---circular-motion-380268",
+      "sourceOrder": 8,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P09",
+      "sub": "P",
+      "name": "Centre of Mass and System of Particles",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--07---center-of-mass-and-collison-837589",
+      "sourceOrder": 9,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P10",
+      "sub": "P",
+      "name": "Rotational Motion",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--08---rotational-motion-153779",
+      "sourceOrder": 10,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P11",
+      "sub": "P",
+      "name": "Gravitation",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--17---gravitation-273000",
+      "sourceOrder": 11,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P12",
+      "sub": "P",
+      "name": "Mechanical Properties of Solids",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--10---mechanical-properties-of-solids-188333",
+      "sourceOrder": 12,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P13",
+      "sub": "P",
+      "name": "Mechanical Properties of Fluids",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--09---mechanical-properties-of-fluids-440589",
+      "sourceOrder": 13,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P14",
+      "sub": "P",
+      "name": "Oscillations",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--13---simple-harmonic-motion-510997",
+      "sourceOrder": 14,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P15",
+      "sub": "P",
+      "name": "Waves",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--14---waves-697026",
+      "sourceOrder": 15,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P16",
+      "sub": "P",
+      "name": "Thermal Properties of Matter",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--11---thermal-properties-of-matter-038894",
+      "sourceOrder": 16,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P17",
+      "sub": "P",
+      "name": "Kinetic Theory and Thermodynamics",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--12---ktg-and-thermodynamics-942757",
+      "sourceOrder": 17,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P18",
+      "sub": "P",
+      "name": "Electric Charges and Fields",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--15---electric-charges-and-field-964729",
+      "sourceOrder": 18,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P19",
+      "sub": "P",
+      "name": "Electrostatic Potential and Capacitance",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--16---electric-potential-and-capacitance-022797",
+      "sourceOrder": 19,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P20",
+      "sub": "P",
+      "name": "Current Electricity",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--18---current-electricity-158820",
+      "sourceOrder": 20,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P21",
+      "sub": "P",
+      "name": "Moving Charges and Magnetism",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch-19---moving-charge-and-magnetism-857901",
+      "sourceOrder": 21,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P22",
+      "sub": "P",
+      "name": "Magnetism and Matter",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch-23---magnetism-and-matter-764688",
+      "sourceOrder": 22,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P23",
+      "sub": "P",
+      "name": "Electromagnetic Induction",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch-20---electro-magnetic-induction-075650",
+      "sourceOrder": 23,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P24",
+      "sub": "P",
+      "name": "Alternating Current",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch-21---alternating-current-659432",
+      "sourceOrder": 24,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P25",
+      "sub": "P",
+      "name": "Electromagnetic Waves",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--24---em-waves-421165",
+      "sourceOrder": 25,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P26",
+      "sub": "P",
+      "name": "Ray Optics and Optical Instruments",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch-22---ray-optics-and-optical-instrument-678118",
+      "sourceOrder": 26,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P27",
+      "sub": "P",
+      "name": "Wave Optics",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch--25---wave-optics-928616",
+      "sourceOrder": 27,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P28",
+      "sub": "P",
+      "name": "Dual Nature of Radiation and Matter",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch---28---dual-nature-of-radiation-and-matter-119201",
+      "sourceOrder": 28,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P29",
+      "sub": "P",
+      "name": "Atoms",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch---29---atoms-678639",
+      "sourceOrder": 29,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P30",
+      "sub": "P",
+      "name": "Nuclei",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch---30---nuclei-098907",
+      "sourceOrder": 30,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26P31",
+      "sub": "P",
+      "name": "Semiconductors",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physics-by-rajwant-singh-sir-982104/subject-topics/ch---26---semiconductors-953289",
+      "sourceOrder": 31,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C01",
+      "sub": "C",
+      "name": "Some Basic Concepts of Chemistry",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch--01---some-basic-concepts-of-chemistry-700539",
+      "sourceOrder": 1,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C02",
+      "sub": "C",
+      "name": "Structure of Atom",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch-08---structure-of-atom-283609",
+      "sourceOrder": 2,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C03",
+      "sub": "C",
+      "name": "Classification of Elements and Periodicity in Properties",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-01---periodic-table-725782",
+      "sourceOrder": 3,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C04",
+      "sub": "C",
+      "name": "Chemical Bonding and Molecular Structure",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-02---chemical-bonding-and-molecular-structure-643042",
+      "sourceOrder": 4,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C05",
+      "sub": "C",
+      "name": "IUPAC Nomenclature",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-01---iupac-nomenclature-617640",
+      "sourceOrder": 5,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C06",
+      "sub": "C",
+      "name": "General Organic Chemistry",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-02---general-organic-chemistry-801933",
+      "sourceOrder": 6,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C07",
+      "sub": "C",
+      "name": "Isomerism",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-03---isomerism-584609",
+      "sourceOrder": 7,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C08",
+      "sub": "C",
+      "name": "Hydrocarbons",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-04---hydrocarbon-242653",
+      "sourceOrder": 8,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C09",
+      "sub": "C",
+      "name": "States of Matter",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch-11---states-of-matter-781339",
+      "sourceOrder": 9,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C10",
+      "sub": "C",
+      "name": "Thermodynamics",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch--05---thermodynamics-288204",
+      "sourceOrder": 10,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C11",
+      "sub": "C",
+      "name": "Chemical Equilibrium",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch-06--chemical-equilibrium-190775",
+      "sourceOrder": 11,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C12",
+      "sub": "C",
+      "name": "Ionic Equilibrium",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch-07---ionic-equilibrium-757246",
+      "sourceOrder": 12,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C13",
+      "sub": "C",
+      "name": "Redox Reactions",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch--02---redox-reaction-681277",
+      "sourceOrder": 13,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C14",
+      "sub": "C",
+      "name": "Hydrogen and Its Compounds",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-08---hydrogen-and-its-compound-912653",
+      "sourceOrder": 14,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C15",
+      "sub": "C",
+      "name": "S Block Elements",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-07---s-block-element-152259",
+      "sourceOrder": 15,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C16",
+      "sub": "C",
+      "name": "P Block Elements",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-05---p-block-elements-243293",
+      "sourceOrder": 16,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C17",
+      "sub": "C",
+      "name": "The Solid State",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch---10---the-solid-state-250084",
+      "sourceOrder": 17,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C18",
+      "sub": "C",
+      "name": "Solutions",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch--03---solutions-135970",
+      "sourceOrder": 18,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C19",
+      "sub": "C",
+      "name": "Electrochemistry",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch-09---electrochemistry-436281",
+      "sourceOrder": 19,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C20",
+      "sub": "C",
+      "name": "Chemical Kinetics",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch--04---chemical-kinetics-529502",
+      "sourceOrder": 20,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C21",
+      "sub": "C",
+      "name": "Surface Chemistry",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/physical-chemistry-by-faisal-razaq-sir-693860/subject-topics/ch-12---surface-chemistry-423274",
+      "sourceOrder": 21,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C22",
+      "sub": "C",
+      "name": "Haloalkanes and Haloarenes",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-05---haloalkane-and-haloarene-355209",
+      "sourceOrder": 22,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C23",
+      "sub": "C",
+      "name": "Alcohols, Phenols and Ethers",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-06---alcohols--phenols-and-ethers-254683",
+      "sourceOrder": 23,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C24",
+      "sub": "C",
+      "name": "D and F Block Elements",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-06---d-and-f-block-elements-519320",
+      "sourceOrder": 24,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C25",
+      "sub": "C",
+      "name": "Coordination Compounds",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-03---coordination-compounds-294874",
+      "sourceOrder": 25,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C26",
+      "sub": "C",
+      "name": "Aldehydes, Ketones and Carboxylic Acids",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-07---aldehydes--ketones-and-carboxylic-acids-305901",
+      "sourceOrder": 26,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C27",
+      "sub": "C",
+      "name": "Amines",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-08---amines-263924",
+      "sourceOrder": 27,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C28",
+      "sub": "C",
+      "name": "General Principles and Processes of Isolation of Metals",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-09---metallurgy-233987",
+      "sourceOrder": 28,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C29",
+      "sub": "C",
+      "name": "Biomolecules",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-09---biomolecules-969258",
+      "sourceOrder": 29,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C30",
+      "sub": "C",
+      "name": "Polymers",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-10---polymers-183956",
+      "sourceOrder": 30,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C31",
+      "sub": "C",
+      "name": "Salt Analysis",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/inorganic-chemistry-by-amitabh-sharma-sir-939181/subject-topics/ch-04---salt-analysis-959833",
+      "sourceOrder": 31,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C32",
+      "sub": "C",
+      "name": "Chemistry in Everyday Life",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-11---chemistry-in-everyday-life-261283",
+      "sourceOrder": 32,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26C33",
+      "sub": "C",
+      "name": "Environmental Chemistry",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/organic-chemistry-by-rohit-agarwal-sir-134847/subject-topics/ch-12---environmental-chemistry-580568",
+      "sourceOrder": 33,
+      "lects": [
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M01",
+      "sub": "M",
+      "name": "Basic Mathematics",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch--01---basic-maths-159460",
+      "sourceOrder": 1,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M02",
+      "sub": "M",
+      "name": "Quadratic Equations",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch--02---quadratic-equations-271534",
+      "sourceOrder": 2,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M03",
+      "sub": "M",
+      "name": "Sequences and Series",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch--03---sequence-and-series-695116",
+      "sourceOrder": 3,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M04",
+      "sub": "M",
+      "name": "Trigonometric Functions",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch--04---trigonometric-functions-245371",
+      "sourceOrder": 4,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M05",
+      "sub": "M",
+      "name": "Trigonometric Equations",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch--05---trigonometric-equation-887007",
+      "sourceOrder": 5,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M06",
+      "sub": "M",
+      "name": "Sets",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-16---sets-582912",
+      "sourceOrder": 6,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M07",
+      "sub": "M",
+      "name": "Permutations and Combinations",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-06---permutations-and-combinations-418594",
+      "sourceOrder": 7,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M08",
+      "sub": "M",
+      "name": "Binomial Theorem",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-07---binomial-theorem-098842",
+      "sourceOrder": 8,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M09",
+      "sub": "M",
+      "name": "Complex Numbers",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-30---complex-number-958160",
+      "sourceOrder": 9,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M10",
+      "sub": "M",
+      "name": "Statistics",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-23---statistics-995913",
+      "sourceOrder": 10,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M11",
+      "sub": "M",
+      "name": "Relations and Functions",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-17---relations-and-functions-975875",
+      "sourceOrder": 11,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M12",
+      "sub": "M",
+      "name": "Inverse Trigonometric Functions",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-18---inverse-trigonometric-functions-304277",
+      "sourceOrder": 12,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M13",
+      "sub": "M",
+      "name": "Solution of Triangles",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-12---solution-of-triangle-730020",
+      "sourceOrder": 13,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M14",
+      "sub": "M",
+      "name": "Straight Lines",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-08---straight-lines-099594",
+      "sourceOrder": 14,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M15",
+      "sub": "M",
+      "name": "Circles",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-09---circles-420909",
+      "sourceOrder": 15,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M16",
+      "sub": "M",
+      "name": "Conic Sections: Parabola",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-10---conic-section--parabola-165573",
+      "sourceOrder": 16,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M17",
+      "sub": "M",
+      "name": "Conic Sections: Ellipse",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-11---conic-section--ellipse-157678",
+      "sourceOrder": 17,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M18",
+      "sub": "M",
+      "name": "Conic Sections: Hyperbola",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-13---conic-section--hyperbola-074714",
+      "sourceOrder": 18,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M19",
+      "sub": "M",
+      "name": "Limits, Continuity and Differentiability",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-19---limit--continuity-and-differentiability-501695",
+      "sourceOrder": 19,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M20",
+      "sub": "M",
+      "name": "Methods of Differentiation",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-20---method-of-differentiation-469710",
+      "sourceOrder": 20,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M21",
+      "sub": "M",
+      "name": "Applications of Derivatives",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-21---application-of-derivatives-967013",
+      "sourceOrder": 21,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M22",
+      "sub": "M",
+      "name": "Indefinite Integration",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-22---indefinite-integration-278043",
+      "sourceOrder": 22,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M23",
+      "sub": "M",
+      "name": "Definite Integration",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-24---definite-integration-129373",
+      "sourceOrder": 23,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M24",
+      "sub": "M",
+      "name": "Applications of Integrals",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-25---application-of-integrals-063195",
+      "sourceOrder": 24,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M25",
+      "sub": "M",
+      "name": "Differential Equations",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-26---differential-equations-902138",
+      "sourceOrder": 25,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M26",
+      "sub": "M",
+      "name": "Matrices",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-15---matrices-304628",
+      "sourceOrder": 26,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M27",
+      "sub": "M",
+      "name": "Determinants",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-14---determinants-275933",
+      "sourceOrder": 27,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M28",
+      "sub": "M",
+      "name": "Vector Algebra",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-27---vector-algebra-328886",
+      "sourceOrder": 28,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M29",
+      "sub": "M",
+      "name": "Three-Dimensional Geometry",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-28---three-dimensional-geometry-570243",
+      "sourceOrder": 29,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    },
+    {
+      "id": "J26M30",
+      "sub": "M",
+      "name": "Probability",
+      "url": "https://pwthor.live/study/batches/6a86ce9141c8c3630248cf70/subjects/maths-by-ashish-agarwal-sir-741418/subject-topics/ch-29---probability-952333",
+      "sourceOrder": 30,
+      "lects": [
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        },
+        {
+          "d": null
+        }
+      ],
+      "custom": false
+    }
+  ],
+  "rev": {},
+  "focus": {},
+  "rlog": {},
+  "snz": {},
+  "tres": [],
+  "tplan": [],
+  "td": null,
+  "dpp": {},
+  "practice": {},
+  "schedulerVersion": 9
+}

@@ -1,0 +1,10 @@
+JEE OS — Functional customization fix
+
+Fixed the planner logic so scheduling controls affect the generated plan rather than only the Settings UI:
+- Lectures per subject per day now drives both today's plan and future simulated dates (1–4 per subject).
+- Subject order now determines the order in which the day's subject slots are assigned.
+- Changing pace, subject order, rest days, or the plan start date invalidates today's cached plan.
+- Scheduler cache version bumped to 12 so stale cached schedules regenerate.
+- Revision buffer input is clamped to the documented 0–365 day range and its derived feedback rerenders.
+
+Default behavior remains two lectures per subject per day, Physics → Chemistry → Maths, every day including Sunday. No test system was reintroduced.

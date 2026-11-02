@@ -1,0 +1,11 @@
+JEE OS 4.3.0 — Adaptive four-lecture planner
+
+- Default changed to four total lectures per day, including Sundays.
+- Added a total-lectures-per-day setting (3, 4, 5, or 6) instead of a per-subject multiplier.
+- When all three subjects have remaining lectures, one is assigned to each subject before extra slots are allocated.
+- Extra slots go to the subject with the highest remaining-lecture fraction relative to its syllabus workload; allocation recalculates after each slot.
+- Within each subject, lecture queues follow the configured chapter order and lecture number order.
+- Dashboard, Today, Planner, and Finish Line now report the total daily target.
+- Scheduler cache version bumped to 13 so old six-lecture cached plans regenerate.
+- Existing completion ticks, DPP records, practice records, appearance settings, and cloud snapshot mechanism are preserved.
+- Test system remains absent from the visible app.

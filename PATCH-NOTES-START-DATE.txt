@@ -1,0 +1,7 @@
+Jee OS — Start-date scheduling fix
+
+- Preserve today's assigned lecture slots across refresh and cloud progress reload.
+- Tie the daily lecture cache to the calendar date and configured plan start date.
+- Changing Plan Start Date invalidates the cached daily allocation and recalculates the lecture/test timeline from the new start date.
+- Existing lecture completion timestamps and historical test results are preserved.
+- Revision due dates for completed chapters remain completion-based (completion date + existing revision intervals); they are not falsified or shifted as if a chapter were completed on another date.

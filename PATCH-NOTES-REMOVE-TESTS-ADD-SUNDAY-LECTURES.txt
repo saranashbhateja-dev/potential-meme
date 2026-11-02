@@ -1,0 +1,8 @@
+JEE OS 4.1.0 — Remove test system; schedule lectures every day
+
+- Removed the Tests tab and dashboard Quick Action.
+- Removed automatic test scheduling from the visible calendar and removed Sunday TEST badges.
+- Removed test-day settings and all Sunday test/rest messaging.
+- Sundays now follow the same daily sequence as every other day: Physics x2, Chemistry x2, Mathematics x2 (six lectures total).
+- Increased the planner scheduler version so cached empty Sunday plans regenerate with lectures.
+- Kept syllabus, lecture completion, DPP, daily practice, revision, and cloud-sync functionality. Existing test history remains stored for data compatibility but is no longer shown in the app.

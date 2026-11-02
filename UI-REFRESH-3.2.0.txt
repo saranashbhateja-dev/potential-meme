@@ -1,0 +1,8 @@
+JEE OS 3.2.0 — UI refresh and dashboard recovery
+
+- Fixed the blank dashboard: ring() and pace() helpers were referenced but missing.
+- Added a per-view render recovery panel so future view errors do not silently leave the main content blank.
+- Reworked the visual system: improved hierarchy, spacing, contrast, navigation, responsive layouts, buttons, forms, progress ring, card surfaces, and subtle entrance motion.
+- Added reduced-motion support and responsive mobile refinements.
+- Kept curriculum, lecture/DPP/practice tracking, Supabase integration, authentication flow, and existing navigation logic.
+- This update has passed static syntax and archive checks. A full real-browser interaction test could not be completed in this environment.

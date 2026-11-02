@@ -1,0 +1,20 @@
+JEE OS 4.2.0 — Customization update
+
+Appearance
+- Added Dark, Light, and Follow Device theme options.
+- Added Violet, Blue, Teal, Rose, and Amber accent colors.
+- Added Compact, Comfortable, and Spacious interface density.
+- Added Small, Default, and Large text sizes.
+
+Planning
+- Added configurable 1–4 lectures per subject per study day.
+- Added all six possible Physics/Chemistry/Maths subject orders.
+- Added optional rest-day selection for each day of the week. All days, including Sunday, remain study days by default.
+- Kept plan start date, exam date, and revision buffer customizable.
+- Planner estimates and future schedule now respond to pace, order, and rest-day settings.
+- Existing completed lecture ticks are preserved when settings change.
+
+Data and compatibility
+- Preferences are part of the tracker state and JSON backup/import.
+- Preferences sync through the existing cloud snapshot when cloud sync is enabled.
+- Test system remains removed from the visible app experience.

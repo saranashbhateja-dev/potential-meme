@@ -1,0 +1,7 @@
+JEE OS — Chapter arrangement update
+
+- Reordered all 43 Physics, 49 Chemistry, and 37 Mathematics chapters to match the user's supplied lists.
+- Updated tracker.json (seed and canonical chapter order) and curriculum.json chapterNames.
+- Existing chapter objects are reordered by stable chapter ID at startup; objects are not recreated, preserving lecture completion dates, URLs, notes, revision records, and test history.
+- Bumped the planner scheduler version so cached day allocations are regenerated against the new chapter order.
+- Did not change the six-hour study block, whole-video rule, subject rotation, revision intervals, test rules, or visual design.

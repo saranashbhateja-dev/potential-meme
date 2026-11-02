@@ -1,0 +1,10 @@
+Jee OS — Manual Chapter Order Persistence Fix
+
+- Chapter up/down controls are now visible directly on each chapter row in the Syllabus tab, without needing to expand the chapter.
+- Reordering stores the ordered chapter IDs in local browser state, so refreshes preserve the chosen order.
+- Cloud sync stores the ordered chapter IDs in the existing JSONB focus settings field, avoiding a database schema change.
+- On sign-in, saved cloud order takes priority; if the account has no saved order yet, a locally customized order is migrated to cloud.
+- Planner and Syllabus use the same chapter objects and ordering. Moving a chapter preserves its lecture completion, notes, revision records, and test results; the current day's generated slot list is rebuilt.
+- Existing accounts without custom ordering continue to use the canonical source order.
+
+Validation performed: JavaScript syntax check (`node --check app.js`) and ZIP integrity test. Live browser/cloud end-to-end testing has not been performed in this environment.

@@ -1,0 +1,3 @@
+Jee OS manual chapter ordering
+
+Added up/down buttons to each subject's roadmap in the Planner tab. Buttons reorder chapters within their own subject only. The order is saved in local tracker state and cloud sync, and is not overwritten by the canonical seed order on reload once a manual move is made. Reordering invalidates the cached schedule so future lecture assignments recalculate. Existing lecture completion dates, notes, revision records, and test history remain attached to their original chapter IDs.

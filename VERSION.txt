@@ -1,0 +1,10 @@
+JEE OS 4.3.0
+Curriculum: jeeos-2026-10-29-v1
+Plan start: configurable (default 2026-10-29)
+Daily plan: 4 total lectures/day by default; adjustable 3–6 total lectures
+Allocation: one per unfinished subject when possible; extra slots prioritize the subject with the largest fraction of syllabus remaining
+Chapter order: sequential within each subject; Sundays included by default
+Appearance: dark/light/system theme, 5 accent colors, compact/comfortable/spacious density, 3 text sizes
+Test system: removed from visible navigation, planning, dashboard, settings, and calendar
+Revision framework: retained
+Data: local-first backup/import and Supabase cloud snapshot sync

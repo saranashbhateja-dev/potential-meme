@@ -1,0 +1,9 @@
+Sequential chapter rotation patch
+
+- Replaced per-subject parallel daily allocation with one global chapter queue.
+- Chapter sequence is Physics 1 -> Chemistry 1 -> Maths 1 -> Physics 2 -> Chemistry 2 -> Maths 2, continuing in the existing chapter order.
+- All uncompleted lectures in a chapter are queued before the next subject's chapter.
+- Keeps one continuous six-hour study block Monday-Saturday and the existing Sunday test/rest behavior.
+- Whole videos remain indivisible; duration estimates still use playlist averages at 1.5x playback.
+- Existing completion dates, revision logs, test results, syllabus metadata, links, and settings are not intentionally reset.
+- Scheduler version increments to regenerate stale same-day allocations once.

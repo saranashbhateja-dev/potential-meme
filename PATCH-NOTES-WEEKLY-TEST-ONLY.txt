@@ -1,0 +1,8 @@
+JEE OS — Weekly Test Only Patch
+
+- Removed automatic Subject Progress Tests, Monthly Full Mocks, and Final Subject Tests.
+- Kept one mixed Physics/Chemistry/Maths Weekly Test every Sunday.
+- Weekly Test format: 45 questions, 90 minutes, 180 marks.
+- Coverage includes chapters completed by the test date.
+- Test result logging now offers only Weekly Test for new entries.
+- Existing historical test results are preserved in local/cloud data.
