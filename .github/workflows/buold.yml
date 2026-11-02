@@ -1,0 +1,142 @@
+name: Build JEE OS 4.3 APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools platforms;android-36 build-tools;36.0.0'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Prepare mobile web assets
+        run: |
+          rm -rf www
+          mkdir -p www
+          cp index.html app.js tracker.json playlist-durations.json www/
+
+          python - <<'PY'
+          from pathlib import Path
+
+          p = Path("www/app.js")
+          s = p.read_text(encoding="utf-8")
+
+          # ============================================================
+          # APK-ONLY PATCH
+          # Remove chapter-link functionality from the mobile APK.
+          # The original app.js is NOT modified.
+          # tracker.json is NOT modified.
+          # ============================================================
+
+          # 1. Keep Watch buttons in planner/today rows so each chapter can open its playlist.
+          # Do not replace watchBtn; it is required in the APK.
+
+          # 2. Remove the "no link" badge from chapter cards.
+          old = """${isUrl(c.url)?'':'<span class="tag bad">no link</span>'}"""
+          s = s.replace(old, "")
+
+          # 3. Remove the chapter link input + Open button.
+          old = """ <div class="acts"><input data-a="clink" data-id="${c.id}" value="${esc(c.url)}" placeholder="Paste this chapter's link from your coaching website" aria-label="Chapter link">${isUrl(c.url)?`<a class="btn" href="${esc(c.url)}" target="_blank" rel="noopener">Open</a>`:''}</div>
+          """
+          s = s.replace(old, "")
+
+          # 4. Keep Watch buttons on individual lecture rows.
+          # Playlist links are retained in tracker.json; only link-editing UI is removed.
+
+          # 5. Remove the "No link" filter.
+          old = """['ip','In progress'],['dn','Complete'],['nl','No link']"""
+          new = """['ip','In progress'],['dn','Complete']"""
+          s = s.replace(old, new)
+
+          # 6. Remove link-based filtering logic.
+          old = """const fl=c=>filt==='all'||(filt==='ip'?cnt(c)[0]>0&&cnt(c)[0]<cnt(c)[1]:filt==='dn'?!!c.doneOn:filt==='nl'?!isUrl(c.url):c.sub===filt);"""
+          new = """const fl=c=>filt==='all'||(filt==='ip'?cnt(c)[0]>0&&cnt(c)[0]<cnt(c)[1]:filt==='dn'?!!c.doneOn:c.sub===filt);"""
+          s = s.replace(old, new)
+
+          # 7. Remove bulk chapter-link section.
+          old = """ <details class="card"><summary style="cursor:pointer;font-weight:600">Add chapter links in bulk (${nl} chapters still have no link)</summary><form id="links" style="margin-top:12px"><div class="mu" style="margin-bottom:8px">Easiest way: press <b>Copy chapter list</b>, paste it into Excel or Google Sheets, fill the third column with your links, then copy all three columns back into the box. You can also type lines like <b>Chapter name | link</b>. Basic Mathematics exists in Physics and Maths, so for that one write <b>Physics | Basic Mathematics | link</b>.</div><div class="btns" style="margin-bottom:8px"><button type="button" class="btn g" data-a="tpl">Copy chapter list</button></div><textarea name="text" required style="min-height:120px" placeholder="Rotational Motion | https://yourcoaching.com/..."></textarea><div style="margin-top:10px"><button class="btn">Save links</button></div>${lmsg?`<div class="mu" style="margin-top:8px">${esc(lmsg)}</div>`:''}</form></details>
+          """
+          s = s.replace(old, "")
+
+          # 8. Remove the Link field from "Add a chapter".
+          old = """<div class="w"><span class="mu">Link (optional)</span><input name="url" placeholder="https://..."></div>"""
+          s = s.replace(old, "")
+
+          # 9. Make newly-created custom chapters have no URL in APK.
+          old = """S.chapters.push({id:uid(),sub:v.sub,name,url:(v.url||'').trim(),custom:1,lects:"""
+          new = """S.chapters.push({id:uid(),sub:v.sub,name,url:'',custom:1,lects:"""
+          s = s.replace(old, new)
+
+          # 10. Disable the mobile chapter-link event handler.
+          old = """ else if(a==='clink'){const c=chap(el.dataset.id);if(c){c.url=el.value.trim();open[c.id]=true;save();rerender()}}
+          """
+          s = s.replace(old, "")
+
+          # 11. Disable the bulk-link submit handler.
+          old = """ else if(f.id==='links'){const r=bulkLinks(v.text);lmsg=r.ok+' link'+(r.ok===1?'':'s')+' saved.'+(r.nolink?' '+r.nolink+' row'+(r.nolink>1?'s':'')+' without a link were skipped.':'')+(r.bad.length?' Could not use '+r.bad.length+': '+r.bad.slice(0,4).join('; ')+(r.bad.length>4?' and more':''):'');if(r.ok)save();rerender()}
+          """
+          s = s.replace(old, "")
+
+          # 12. Disable the Copy Chapter List action.
+          old = """ else if(a==='tpl')copyTemplate()
+          """
+          s = s.replace(old, "")
+
+          p.write_text(s, encoding="utf-8")
+
+          print("APK-only chapter-link patch applied.")
+          PY
+
+          cat > capacitor.config.json <<'EOF'
+          {
+            "appId": "com.saransh.jeeos",
+            "appName": "Jee OS",
+            "webDir": "www",
+            "server": {
+              "androidScheme": "https"
+            }
+          }
+          EOF
+
+      - name: Create Android project
+        run: npx cap add android
+
+      - name: Sync web app
+        run: npx cap sync android
+
+      - name: Build debug APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: JEE-OS-4.3-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
